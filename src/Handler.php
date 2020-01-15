@@ -121,7 +121,7 @@
 			return $status_data;
 		}
 		
-		public function getNetFee($voucher_amount) {
+		public function getNetFee($voucher_amount = 1): float {
 			//TODO: take data from the client?
 			return $voucher_amount * 0.0015;
 		}
